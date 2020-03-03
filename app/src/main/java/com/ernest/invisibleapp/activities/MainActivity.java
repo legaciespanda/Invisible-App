@@ -1,14 +1,16 @@
-package com.ernest.invisibleapp;
+package com.ernest.invisibleapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Splash extends AppCompatActivity {
+import com.ernest.invisibleapp.R;
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.activity_main);
     }
 }
